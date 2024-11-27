@@ -111,7 +111,7 @@ function balancePuntos(puntosBanca, puntosJugador, nombreJugador) {
     Swal.fire({
       title: `¡Has ganado, ${nombreJugador}!`,
       text: "La Banca se ha pasado de 21 puntos",
-      imageUrl: "/images/images/contento.jpg",
+      imageUrl: "./images/images/contento.jpg",
       imageWidth: 400,
       imageHeight: 200,
       imageAlt: "Cara triste",
@@ -120,7 +120,7 @@ function balancePuntos(puntosBanca, puntosJugador, nombreJugador) {
   } else if (puntosBanca > puntosJugador && puntosBanca < 22) {
     Swal.fire({
       title: "Ha ganado la Banca :(",
-      imageUrl: "/images/images/triste.jpg",
+      imageUrl: "./images/images/triste.jpg",
       imageWidth: 400,
       imageHeight: 200,
       imageAlt: "Cara triste",
@@ -130,7 +130,7 @@ function balancePuntos(puntosBanca, puntosJugador, nombreJugador) {
     Swal.fire({
       title: `Ha ganado la Banca :(`,
       text: "Te has pasado de 21 puntos...",
-      imageUrl: "/images/images/triste.jpg",
+      imageUrl: "./images/images/triste.jpg",
       imageWidth: 400,
       imageHeight: 200,
       imageAlt: "Cara triste",
@@ -139,7 +139,7 @@ function balancePuntos(puntosBanca, puntosJugador, nombreJugador) {
   } else if (puntosBanca < puntosJugador && puntosJugador < 22) {
     Swal.fire({
       title: `¡Has ganado, ${nombreJugador}!`,
-      imageUrl: "/images/images/contento.jpg",
+      imageUrl: "./images/images/contento.jpg",
       imageWidth: 400,
       imageHeight: 200,
       imageAlt: "Cara contenta",
@@ -148,7 +148,7 @@ function balancePuntos(puntosBanca, puntosJugador, nombreJugador) {
   } else {
     Swal.fire({
       title: `Ha habido empate`,
-      imageUrl: "/images/images/empate.jpg",
+      imageUrl: "./images/images/empate.jpg",
       imageWidth: 400,
       imageHeight: 200,
       imageAlt: "Cara empate",
