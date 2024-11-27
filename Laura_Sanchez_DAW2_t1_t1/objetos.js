@@ -3,7 +3,7 @@ class carta {
   valor;
 
   constructor(representacion) {
-    this.imagen = `/images/images/${representacion}.png`;
+    this.imagen = `./images/images/${representacion}.png`;
     let valorString = representacion.substring(0, representacion.length - 1);
     if (valorString == "A") {
       this.valor = Number(1);
